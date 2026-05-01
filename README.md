@@ -59,41 +59,46 @@ sudo nc instagram.com 443
 GET / HTTP/1.1
 Host: instagram.com
 
-<img width="631" height="86" alt="Screenshot From 2026-01-30 09-44-57" src="https://github.com/user-attachments/assets/2235fb00-1487-4d29-b0fb-b80fb532a4d1" />
+<img width="688" height="156" alt="nc -z" src="https://github.com/user-attachments/assets/8a494edd-5f0e-4a5c-982a-ea115c94c825" />
+
+
 
 ## nmap:
 ## output
 
-<img width="696" height="253" alt="Screenshot From 2026-01-30 09-45-07" src="https://github.com/user-attachments/assets/3aa121a9-8a5a-4dbc-bb4b-160a11ae396b" />
+<img width="757" height="448" alt="nmao" src="https://github.com/user-attachments/assets/42bbdbba-e86a-4c74-ac5e-dc69df9d47c6" />
 
 ## Whatweb
 ### output
 
-<img width="1914" height="208" alt="Screenshot From 2026-01-30 09-45-22" src="https://github.com/user-attachments/assets/6bb1731d-07d8-47e2-9b15-dc633fbb6c7b" />
+<img width="1138" height="733" alt="what web" src="https://github.com/user-attachments/assets/dcb32109-b115-4982-a0bf-6b1c61fc249d" />
 
 ## httprint
 ### output
 
-<img width="752" height="920" alt="Screenshot From 2026-01-30 09-45-40" src="https://github.com/user-attachments/assets/bbcd77ef-ac9e-4000-8507-0134e9a15de9" />
+<img width="1263" height="829" alt="http" src="https://github.com/user-attachments/assets/460bab09-f1ad-44b5-b165-8fb06e8498be" />
+
 
 # Tracing the Location
 TCP Traceroute:
 sudo traceroute -T instagram.com
 ## output
 
-<img width="776" height="105" alt="Screenshot From 2026-01-30 09-45-59" src="https://github.com/user-attachments/assets/6c3218aa-f976-4b9f-af0b-de536c150154" />
+<img width="800" height="184" alt="-t" src="https://github.com/user-attachments/assets/53757dd4-a839-4087-b01f-17dfa660b01f" />
+
 
 ## UDP Traceroute:
 sudo traceroute -U instagram.com
 ## output
+<img width="777" height="487" alt="u" src="https://github.com/user-attachments/assets/685964f6-dea6-4ba3-bec6-206b5fc75b20" />
 
-<img width="607" height="192" alt="Screenshot From 2026-01-30 09-46-13" src="https://github.com/user-attachments/assets/2e3111f9-5664-4863-bc79-8092aaf101e9" />
 
 ## ICMP Traceroute:
 sudo traceroute instagram.com
 ## output
 
-<img width="607" height="192" alt="Screenshot From 2026-01-30 09-46-20" src="https://github.com/user-attachments/assets/b647cd01-45a8-47cc-95b1-d3b387885ac3" />
+<img width="750" height="373" alt="Screenshot 2026-05-01 145930" src="https://github.com/user-attachments/assets/65b03458-c5d3-4b50-9a21-8d8034349118" />
+
 
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
